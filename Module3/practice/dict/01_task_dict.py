@@ -6,5 +6,7 @@
 
 item = {"name": "Кроссовки", "price": "7540.5", "currency": "rub", "count": "10"}
 dollar_rate = 74.12
-
-# TODO: your code here
+price=float(item["price"])
+count=int(item["count"])
+sum=(count*price/dollar_rate)
+print("Сумма в долларах США :",sum)
